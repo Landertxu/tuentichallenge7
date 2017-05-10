@@ -91,7 +91,6 @@ int main() {
     int numPrimaryColors = 0;
     
     // From color name to bitmask of primary colors, in order of occurrence.
-    
     map<string, int> nameToMask;
     for (int i = 0; i < numColors; i++) {
       string nameColor;
